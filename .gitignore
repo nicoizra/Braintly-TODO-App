@@ -1,0 +1,10 @@
+# Ignorar la carpeta de Node.js
+node_modules/
+
+# # Ignorar archivos específicos de React Native
+# /ruta/al/proyecto-react-native/archivo1
+# /ruta/al/proyecto-react-native/archivo2
+
+# # Otros archivos y carpetas específicos
+# /ruta/al/proyecto-node/archivo3
+# /ruta/al/proyecto-node/archivo4
