@@ -13,7 +13,7 @@
 
 ## Instalación
 
-Para correr el backend:
+Para correr el backend, primero colocar el firebase.json que envío por mail. Luego:
 
 ```bash
 cd BraintlyTODOBackend
