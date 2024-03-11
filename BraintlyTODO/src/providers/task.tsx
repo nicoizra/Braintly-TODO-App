@@ -72,6 +72,7 @@ export const TaskProvider = ({children}: any) => {
       ...shownTasks.filter(task => !isBeforeNow(task.expires)),
     ];
     nonExpiredTasks.sort((a, b) => a.expires.getTime() - b.expires.getTime());
+    expiredTasks.sort((a, b) => b.expires.getTime() - a.expires.getTime());
 
     let sortedList = [...nonExpiredTasks, ...expiredTasks];
     setShownTasks(sortedList);
